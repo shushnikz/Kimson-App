@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.site-layout .site-layout-background {
+  background: #fff;
 }
-
-.App-link {
-  color: #61dafb;
+.ant-layout-sider{
+  height: 100vh !important;
+  background-color: #fff !important;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-layout-header{
+  height: 80px !important;
+}
+.ant-layout-header span svg{
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 10px !important;
+}
+.logo{
+  margin: 10px;
+  background-color: #fff;
+}
+.profile-pic{
+  padding: 0px 20px 20px 20px;
+  margin: 0px 30px 20px 20px;
+  cursor: pointer;
+}
+.close{
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px;
+}
+.ant-menu-title-content a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.list{
+  background-color: #fff;
+  margin: 3px;
+}
+.bs{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.first-list{
+  border-radius: 15px;
+  margin: 5px;
+}
+.first-list h6{
+  font-size: 14px;
+  padding: 2px;
+  margin: 2px;
+}
+.flex{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.title h2{
+  color: #a0211fe5 !important;
+  margin: 20px;
+  font-weight: bold;
+}
+input, .ant-input{
+  border: 1px solid #58574d;
+  box-shadow: none !important;
+  border-radius: 50px !important;
+}
+.search span{
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  color: #b7acac;
+}
+.fonticon{
+  margin: 2px;
+}
+.add{
+  margin-top: 30px;
+}
+.add span{
+  padding: 5px;
+  margin: 10px;
+  font-size: 20px;
+}
+.add span Button{
+  background-color: #a7a3a3;
+  font-size: large;
+}
+.price{
+  margin: 10px 30px 0px 0px;
+  font-size: 20px;
+}
+.chat{
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+}
+.chat img{
+  height: 60px;
+  cursor: pointer;
+  margin: 5px;
 }
