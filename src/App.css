@@ -118,3 +118,77 @@ input, .ant-input{
 .register{
   height: 100vh !important;
 }
+.products{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #6b92b7; */
+  border-radius: 6px;
+  padding: 1.5rems;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.product{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.productInput{
+  min-height: 1.5rem;
+  width: 1.5em;
+  border: 1px solid #555544;
+  position: relative;
+}
+.productInput > input {
+  appearance: none;
+}
+.product > label > span {
+  font-size: 0.875rem;
+  margin-left: 0.25rem;
+  font-weight: 100;
+}
+.productInputBefore{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1890ff;
+  z-index: 1;
+}
+.productInputAfter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.productInput,
+.product > label {
+  cursor: pointer;
+}
+.filters{
+  min-height: 3rem;
+  background-color: #a7a79b;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  gap: 1rem;
+}
+.option{
+  background: whitesmoke;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+.option:hover{
+  background: #fbfbdd;
+}

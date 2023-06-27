@@ -14,6 +14,7 @@ import {
     SearchOutlined,
     MessageOutlined,
     HomeOutlined,
+    CheckCircleOutlined
 } from '@ant-design/icons';
 import { Avatar, Menu } from 'antd';
 import { Layout, theme } from 'antd';
@@ -79,6 +80,9 @@ const DefaultLayout = (props) => {
                             </Menu.Item>
                             <Menu.Item key="/previousorders" icon={<UndoOutlined />}>
                                 <Link to="/previousorders">Previous Orders</Link>
+                            </Menu.Item>
+                            <Menu.Item key="/checkbox" icon={<CheckCircleOutlined />}>
+                                <Link to="/checkbox">CheckBox</Link>
                             </Menu.Item>
 
                         </Menu>

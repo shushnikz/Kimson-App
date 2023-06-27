@@ -11,6 +11,7 @@ import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import YourBasket from './pages/YourBasket';
 import Chat from './pages/Chat';
+import Checkbox from './pages/Checkbox';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/yourbasket" element={<YourBasket />} />
         <Route path="/chat" element={<Chat />} />
+        <Route path="/checkbox" element={<Checkbox />} />
       </Routes>
     </div>
   );
