@@ -18,107 +18,110 @@
 .site-layout .site-layout-background {
   background: #fff;
 }
-.ant-layout-sider{
+.ant-layout-sider {
   height: 100vh !important;
   background-color: #fff !important;
 }
-.ant-layout-header{
+.ant-layout-header {
   height: 80px !important;
 }
-.ant-layout-header span svg{
+.ant-layout-header span svg {
   height: 25px !important;
   width: 25px !important;
   margin-left: 10px !important;
 }
-.logo{
+.logo {
   margin: 10px;
   background-color: #fff;
 }
-.profile-pic{
+.profile-pic {
   padding: 0px 20px 20px 20px;
   margin: 0px 30px 20px 20px;
   cursor: pointer;
 }
-.close{
+.close {
   font-size: 20px;
   cursor: pointer;
   margin: 5px;
 }
-.ant-menu-title-content a{
+.ant-menu-title-content a {
   text-decoration: none;
   font-weight: bold;
 }
-.list{
+.list {
   background-color: #fff;
   margin: 3px;
 }
-.bs{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+.bs {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-.first-list{
+.first-list {
   border-radius: 15px;
   margin: 5px;
 }
-.first-list h6{
+.first-list h6 {
   font-size: 14px;
   padding: 2px;
   margin: 2px;
 }
-.flex{
+.flex {
   display: flex !important;
   align-items: center !important;
   justify-content: space-around !important;
 }
-.title h2{
+.title h2 {
   color: #a0211fe5 !important;
   margin: 20px;
   font-weight: bold;
 }
-input, .ant-input{
+input,
+.ant-input {
   border: 1px solid #58574d;
   box-shadow: none !important;
   border-radius: 50px !important;
 }
-.search span{
+.search span {
   position: absolute;
   top: 3px;
   right: 10px;
   color: #b7acac;
 }
-.fonticon{
+.fonticon {
   margin: 2px;
 }
-.add{
+.add {
   margin-top: 30px;
 }
-.add span{
+.add span {
   padding: 5px;
   margin: 10px;
   font-size: 20px;
 }
-.add span Button{
+.add span Button {
   background-color: #a7a3a3;
   font-size: large;
 }
-.price{
+.price {
   margin: 10px 30px 0px 0px;
   font-size: 20px;
 }
-.chat{
+.chat {
   position: fixed;
   bottom: 0;
   right: 15px;
   z-index: 9;
 }
-.chat img{
+.chat img {
   height: 60px;
   cursor: pointer;
   margin: 5px;
 }
-.register{
+.register {
   height: 100vh !important;
 }
-.products{
+.products {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -130,12 +133,12 @@ input, .ant-input{
   flex-direction: column;
   gap: 1rem;
 }
-.product{
+.product {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-.productInput{
+.productInput {
   min-height: 1.5rem;
   width: 1.5em;
   border: 1px solid #555544;
@@ -149,7 +152,7 @@ input, .ant-input{
   margin-left: 0.25rem;
   font-weight: 100;
 }
-.productInputBefore{
+.productInputBefore {
   position: absolute;
   top: 0;
   left: 0;
@@ -158,7 +161,7 @@ input, .ant-input{
   background: #1890ff;
   z-index: 1;
 }
-.productInputAfter{
+.productInputAfter {
   position: absolute;
   top: 0;
   left: 0;
@@ -174,7 +177,7 @@ input, .ant-input{
 .product > label {
   cursor: pointer;
 }
-.filters{
+.filters {
   min-height: 3rem;
   background-color: #a7a79b;
   display: flex;
@@ -182,13 +185,16 @@ input, .ant-input{
   padding: 0 2rem;
   gap: 1rem;
 }
-.option{
+.option {
   background: whitesmoke;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
   cursor: pointer;
   transition-duration: 300ms;
 }
-.option:hover{
+.option:hover {
   background: #fbfbdd;
 }
+/* .popover {
+  margin: 10px;
+} */

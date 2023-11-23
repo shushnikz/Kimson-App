@@ -1,14 +1,68 @@
-import { Col, Row } from 'antd'
-import React from 'react'
+import { Anchor, Button, Col, ConfigProvider, Popover, Row, Tooltip } from 'antd'
+import React, { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import DefaultLayout from '../components/DefaultLayout'
 
+const text = <span>Title</span>;
+
+const buttonWidth = 80;
+
+const content = (
+    <div>
+        <p>Content</p>
+        <p>Content</p>
+    </div>
+);
+
 function Home() {
+
+    const groceriesContent = (
+        <div>
+            <p>Item 1</p>
+            <p>Item 2</p>
+            <p>Item 3</p>
+        </div>
+    );
+
+    const fruitsContent = (
+        <div>
+            <p>Fruit 1</p>
+            <p>Fruit 2</p>
+            <p>Fruit 3</p>
+        </div>
+    );
+
+    const vegetablesContent = (
+        <div>
+            <p>Veggie 1</p>
+            <p>Veggie 2</p>
+            <p>Veggie 3</p>
+        </div>
+    );
 
     const navigate = useNavigate();
     return (
         <div>
             <DefaultLayout>
+
+                <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '20px', padding: '5px', border: "1px solid blue", backgroundColor: '#a9d4d6' }}>
+                    <div>
+                        <Popover content={groceriesContent} title="Groceries">
+                            <h6><a>Groceries</a></h6>
+                        </Popover>
+                    </div>
+                    <div>
+                        <Popover content={fruitsContent} title="Fruits">
+                            <h6><a>Fruits</a></h6>
+                        </Popover>
+                    </div>
+                    <div>
+                        <Popover content={vegetablesContent} title="Vegetables">
+                            <h6><a>Vegetables</a></h6>
+                        </Popover>
+                    </div>
+                </div>
+
                 <div>
                     <Row>
                         <Col lg={12} sm={24}>
